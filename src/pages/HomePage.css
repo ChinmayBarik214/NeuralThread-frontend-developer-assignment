@@ -4,6 +4,7 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
+  padding: 10px;
   background: linear-gradient(62deg, hsl(0, 0%, 97%) 0%, #fff 100%) #fff;
   font-family: "Poppins", system-ui;
   text-align: center;

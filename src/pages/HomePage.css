@@ -1,0 +1,70 @@
+.banner {
+  display: flex;
+  height: 100vh;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Poppins", system-ui;
+  background: linear-gradient(62deg, hsl(0, 0%, 97%) 0%, #fff 100%) #fff;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap");
+
+.banner__heading {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 4rem;
+  margin: 0.875rem 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.banner__content {
+  font-weight: 300;
+  margin: 0 0 50px;
+  font-size: 1rem;
+  color: #676767;
+}
+
+.btn {
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border: none;
+  background-color: #b621fe;
+}
+
+.btn--slide {
+  z-index: 1;
+}
+
+.btn--slide:after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 100%;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  background-color: #663dff;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.btn--slide:hover:after {
+  left: 0;
+  width: 100%;
+}
+
+.btn--slide:active {
+  top: 2px;
+}

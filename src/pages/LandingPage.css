@@ -6,10 +6,6 @@ body {
   margin: 0;
 }
 
-p {
-  margin: 10px;
-}
-
 .hero {
   display: flex;
   min-height: 100vh;
@@ -40,6 +36,7 @@ p {
   font-weight: 400;
   margin: 0;
   font-size: 1.125rem;
+  margin: 10px;
 }
 
 .main__content--semiBold {
@@ -63,7 +60,7 @@ p {
 .form__header {
   font-weight: 500;
   font-size: 1.25rem;
-  margin-left: 0;
+  margin-left: 10px 10px 10px 0;
 }
 
 .form__input {

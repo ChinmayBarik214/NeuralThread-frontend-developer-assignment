@@ -19,6 +19,15 @@ body {
   text-align: center;
 }
 
+.hero__main > a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.hero__main > a:hover {
+  text-decoration: underline;
+}
+
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap");
 
 .main__heading {

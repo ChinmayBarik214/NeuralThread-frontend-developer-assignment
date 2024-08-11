@@ -6,6 +6,8 @@ import cityImg from '../images/city.jpg'
 import floralbgImg from '../images/floralbg.jpg'
 import recordImg from '../images/record.jpg'
 
+import { Link } from 'react-router-dom'
+
 function LandingPage() {
   return (
     <section className="hero">
@@ -13,7 +15,9 @@ function LandingPage() {
         <h1 className='main__heading'>COMING SOON</h1>
         <p className='main__content main__content--semiBold'>Associated and backed by</p>
         <img src={sineLogo} alt='SINE logo' height={100} />
-        <p className='main__content main__content--bold'>NeuralThread</p>
+        <Link to='/'>
+          <p className='main__content main__content--bold'>NeuralThread</p>
+        </Link>
         <p className='main__content'>Unleashing the Future of Textile Design with</p>
         <p className='main__content main__content--semiBold'>AI Pattern Generation</p>
 
@@ -30,8 +34,8 @@ function LandingPage() {
       <div className="hero__imgs">
         <div className="imgs">
           <img className='img img--left' src={faceSplitImg} alt='' height={140} width={200} />
-          <img className='img img--right' src={ufoImg} alt='' height={140} width={200} style={{objectPosition: 'top'}} />
-          <img className='img img--left' src={cityImg} alt='' height={140} width={200} style={{objectPosition: '0 -80px'}} />
+          <img className='img img--right' src={ufoImg} alt='' height={140} width={200} style={{ objectPosition: 'top' }} />
+          <img className='img img--left' src={cityImg} alt='' height={140} width={200} style={{ objectPosition: '0 -80px' }} />
           <img className='img img--right' src={floralbgImg} alt='' height={140} width={200} />
           <img className='img img--center' src={recordImg} alt='' height={140} width={200} />
         </div>

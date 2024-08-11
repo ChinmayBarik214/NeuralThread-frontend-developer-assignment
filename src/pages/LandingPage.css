@@ -16,10 +16,6 @@ p {
   padding: 1%;
 }
 
-.hero div {
-  border: 1px solid black;
-}
-
 .hero__main {
   flex-grow: 34;
   text-align: center;
@@ -55,6 +51,7 @@ p {
 }
 
 .main__form {
+  position: relative;
   text-align: left;
   font-family: "Montserrat", sans-serif;
   max-width: 700px;
@@ -64,6 +61,7 @@ p {
 .form__header {
   font-weight: 500;
   font-size: 1.25rem;
+  margin-left: 0;
 }
 
 .form__input {
@@ -102,7 +100,33 @@ p {
 .form__msg {
   min-height: 120px;
   padding: 0.625rem;
-  resize: vertical;
+  resize: none;
+}
+
+.form__submit {
+  position: absolute;
+  bottom: 1px;
+  right: 1px;
+  color: #fff;
+  background-color: #9b43fa;
+  cursor: pointer;
+  padding: 0.75rem;
+  border-radius: 5px;
+  border: none;
+}
+
+.form__cutout {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: #fff;
+  background-color: #fff;
+  cursor: pointer;
+  padding: 0.75rem;
+  border-top-left-radius: 10px;
+  border-color: #fff;
+  border-width: 6px;
+  border-style: solid;
 }
 
 .hero__imgs {

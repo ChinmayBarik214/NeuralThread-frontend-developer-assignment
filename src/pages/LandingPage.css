@@ -165,6 +165,10 @@ p {
 }
 
 @media (max-width: 640px) {
+  .hero {
+    gap: 0;
+  }
+  
   .img {
     display: none;
   }

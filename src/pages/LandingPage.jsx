@@ -6,8 +6,6 @@ import cityImg from '../images/city.jpg'
 import floralbgImg from '../images/floralbg.jpg'
 import recordImg from '../images/record.jpg'
 
-import { Link } from "react-router-dom"
-
 function LandingPage() {
   return (
     <section className="hero">

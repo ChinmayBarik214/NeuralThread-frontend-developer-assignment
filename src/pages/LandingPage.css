@@ -13,7 +13,9 @@ p {
 .hero {
   display: flex;
   min-height: 100vh;
-  padding: 1%;
+  padding: 10px;
+  align-items: center;
+  gap: 10px;
 }
 
 .hero__main {
@@ -55,7 +57,7 @@ p {
   text-align: left;
   font-family: "Montserrat", sans-serif;
   max-width: 700px;
-  margin: 60px auto 0;
+  margin: 50px auto 0;
 }
 
 .form__header {
@@ -134,4 +136,37 @@ p {
 
 .hero__imgs {
   flex-grow: 21;
+}
+
+.imgs {
+  margin: auto;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.img {
+  display: block;
+  border-radius: 10px;
+  object-fit: cover;
+  background-position: center;
+}
+
+.img--left {
+  align-self: flex-start;
+}
+
+.img--right {
+  align-self: flex-end;
+}
+
+.img--center {
+  align-self: center;
+}
+
+@media (max-width: 640px) {
+  .img {
+    display: none;
+  }
 }

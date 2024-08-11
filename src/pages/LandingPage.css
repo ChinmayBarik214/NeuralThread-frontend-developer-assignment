@@ -103,6 +103,19 @@ p {
   resize: none;
 }
 
+.form__cutout {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: #fff;
+  background-color: #fff;
+  padding: 0.75rem;
+  border-top-left-radius: 10px;
+  border-color: #fff;
+  border-width: 6px;
+  border-style: solid;
+}
+
 .form__submit {
   position: absolute;
   bottom: 1px;
@@ -115,18 +128,8 @@ p {
   border: none;
 }
 
-.form__cutout {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  color: #fff;
-  background-color: #fff;
-  cursor: pointer;
-  padding: 0.75rem;
-  border-top-left-radius: 10px;
-  border-color: #fff;
-  border-width: 6px;
-  border-style: solid;
+.form__submit:hover {
+  background-color: hsl(269, 95%, 52%);
 }
 
 .hero__imgs {

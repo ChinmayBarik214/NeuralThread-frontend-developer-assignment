@@ -1,4 +1,4 @@
-# Neural Thread Frontend Developer Assignment
+# NeuralThread Frontend Developer Assignment
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -22,13 +22,13 @@ Ensure [node](https://nodejs.org/en/download/) is installed and then download th
   npm install
 ```
 
-Run the app in the development mode.
+Run the app in development mode.
 ```bash
   npm start
 ```
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes. You may also see any lint errors in the console.
+The page will reload when you make changes.
 ## Deploy
 ```bash
   npm run build
@@ -36,5 +36,5 @@ The page will reload when you make changes. You may also see any lint errors in 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
+The build is minified and the filenames include hashes,
 Making the app ready to be [deployed](https://facebook.github.io/create-react-app/docs/deployment).

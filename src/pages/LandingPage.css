@@ -150,7 +150,6 @@ p {
   display: block;
   border-radius: 10px;
   object-fit: cover;
-  background-position: center;
 }
 
 .img--left {

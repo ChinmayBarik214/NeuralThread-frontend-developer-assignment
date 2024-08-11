@@ -1,6 +1,10 @@
 import './LandingPage.css'
 import sineLogo from '../images/sineLogo.png'
-import faceSplit2 from '../images/faceSplit2.jpeg'
+import faceSplitImg from '../images/faceSplit2.jpeg'
+import ufoImg from '../images/ufo.jpg'
+import cityImg from '../images/city.jpg'
+import floralbgImg from '../images/floralbg.jpg'
+import recordImg from '../images/record.jpg'
 
 import { Link } from "react-router-dom"
 
@@ -27,11 +31,11 @@ function LandingPage() {
       </div>
       <div className="hero__imgs">
         <div className="imgs">
-          <img className='img img--left' src={faceSplit2} height={140} width={200} />
-          <img className='img img--right' src={faceSplit2} height={140} width={200} />
-          <img className='img img--left' src={faceSplit2} height={140} width={200} />
-          <img className='img img--right' src={faceSplit2} height={140} width={200} />
-          <img className='img img--center' src={faceSplit2} height={140} width={200} />
+          <img className='img img--left' src={faceSplitImg} height={140} width={200} />
+          <img className='img img--right' src={ufoImg} height={140} width={200} style={{objectPosition: 'top'}} />
+          <img className='img img--left' src={cityImg} height={140} width={200} style={{objectPosition: '0 -80px'}} />
+          <img className='img img--right' src={floralbgImg} height={140} width={200} />
+          <img className='img img--center' src={recordImg} height={140} width={200} />
         </div>
       </div>
     </section>
